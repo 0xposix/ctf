@@ -22,6 +22,6 @@ rgb_frame = frame[:, :, :3]
 active = rgb_frame[0:ACTIVE_HEIGHT, 5:5+ACTIVE_WIDTH]
 
 image = Image.fromarray(active, 'RGB')
-image.save("flag.png")
+image.save("vga.png")
 
-print("Image reconstruite sauvegardée sous flag.png")
+print("Image reconstruite sauvegardée sous vga.png")
